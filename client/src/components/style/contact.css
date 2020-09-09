@@ -1,0 +1,83 @@
+.contactContainerReturn{
+    margin-top: 15vh;
+}
+
+
+
+.contentContact{
+    background-color: white;
+    /* padding: 1%; */
+    /* margin-top: 10%; */
+    position: fixed;
+    z-index: 9;
+    width: 50vw;
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding-top: 2vh;
+    opacity: .8;
+    border: 2px solid rgb(88, 64, 64);
+}
+.contentContact:hover{
+    background-color: white;
+    /* padding: 1%; */
+    /* margin-top: 10%; */
+    position: fixed;
+    z-index: 9;
+    width: 50vw;
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    opacity: 1;
+}
+.contactClock{
+    display: block;
+    position: sticky;
+    width: 50vw;
+    height: auto;
+    align-items: center;
+    margin-left: 25vw;
+    margin-right: 25vw;    
+    border-radius: .5%;
+}
+
+
+
+@media(max-width: 1000px ){
+.containerContact{
+    margin-bottom: 65vh;
+}
+.contentContact{
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    width: 100vw;
+    text-align: center;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    border: 1px solid whitesmoke;
+    opacity: 1;
+}
+
+.contentContact:hover{
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    width: 100vw;
+    text-align: center;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    border: 1px solid whitesmoke;
+    opacity: 1;
+}
+
+.contactClock{
+    display: none;
+    position: sticky;
+    width: 50vw;
+    height: auto;
+    align-items: center;
+    margin:auto;
+    border-radius: .5%;
+}
+}

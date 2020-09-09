@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'Lato';
+	/* font-weight: bold; */
+}
+
+.active .nav-link{
+	color:#00ebe8 !important;
+}
+.menu-right-btn{
+	padding:13px 46px;
+	margin-right:4%;
+	background-color:transparent;
+	transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+	color:white;
+	background-color:#00ebe8;
+}
+.site-content{
+	background-image:url('./assets/sky6.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	height: 740px;
+}
+.site-title, .site-desc{
+	color:rgb(248, 248, 248);
+	/* font-family:'Righteous'; */
+	text-align: left;
+	text-shadow: 2px 2px rgb(0, 0, 0);
+	
+	
+}
+
+.site-title{
+	font-size:50px !important;
+	/* margin-top:10%; */
+	/* margin-right: 50%; */
+	/*margin-bottom:60%;*/
+	text-align: left;
+	margin-top: 7%;
+}	
+.site-desc{
+	font-size:30px;
+	
+}
+
+.site-btn1{
+	margin-left:20%;
+	background-color:black;
+	color:white;
+}
+.site-btn2{
+	background-color:white;
+}
+.site-btn1, .site-btn2{
+	margin-top:5%;
+	margin-bottom:40%;
+}
+
+
+
+/* Section-1 */
+.section-1 .heading-1{
+	margin-top:6%;
+	font-size: 40pt !important;
+}
+.section-1 .heading-2{
+	margin-bottom:3%;
+	font-size: 40pt !important;
+}
+.section-1 .para-1{
+	width:80%;
+	margin-left:10%;
+	margin-bottom:4%;
+	font-size:1.3rem;
+}
+.section-1 .card-text, .para-1{
+	color:rgba(0,0,0,);
+}
+.section-1{
+	margin-bottom:4%;
+}
+.card-img-top{
+	height: 250px;
+}
+.card {
+	margin-bottom: 10%;
+	border: 1px solid rgb(184, 178, 178);
+}
+
+.decloration{
+	font-weight: bold;
+	font-size: 1.5rem !important;
+	width:70%;
+	margin-left:15%;
+	margin-bottom:4%;
+
+}
+
+
+
+/* Section-2 */
+
+.section-2 .container-fluid{
+	background:url("./assets/bridge.jpeg");
+	background-size:cover;
+	background-attachment:fixed;
+	height: 630px;
+}
+
+.section-2 .heading-1{
+	font-size: 3rem;
+	font-family:'Righteous';
+	color:white;
+	text-align:right;
+	margin-right: 8%;
+	text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.section-2 .para{
+	font-family:'Ubuntu';
+	color:whitesmoke;
+	text-align:right;
+	margin-right: 10%;
+}
+.section-2 a{
+	margin-bottom:25%;
+	margin-left:68%;
+	border: 2px solid black;
+}
+.section-2 .btn{
+	/*margin-bottom:15%;
+	width:30%;
+	padding:5% 2%;*/
+}
+
+/* Section-3 */
+.section-3{
+	margin-top:6%;
+	margin-bottom:6%;
+}
+.section-3 i{
+	color:#00e8e8;
+}
+.section-3 p{
+	color:rgba(0,0,0,);
+}
+
+.head{
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+/* Section-4 */
+.section-4{
+	margin-top:1%;
+	text-shadow: 1px 1px black;
+}
+.section-4 .row .col-md-7, .col-md-5{
+	margin-top:7%;
+	margin-bottom:7%;
+	/* height: 250px; */
+	
+}
+.section-4 a{
+	color:lightseagreen;
+	font-size:40px;
+	text-decoration:none;
+}
+.section-4 .para-1{
+	color:white;
+	font-family:'Roboto Condensed';
+	font-size: 1.2rem;
+}
+.section-4 .col-md-7 img{
+ 	width:500px;
+	height:350px;
+	
+}
+
+.four {
+	/* background-color: rgb(164, 246, 239) */
+	background-color:   rgba(187, 32, 37, 0.835) ;
+}
+
+.video{
+	padding-bottom: 6%;
+}
+
+.taketour {
+	font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+/* section 5 */
+.section-5 .container-fluid{
+	background:url("./assets/sky5.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	height: 700px;
+	
+}
+
+.section-5 .heading-1{
+	font-size: 3.5rem;
+	font-family:'Righteous';
+	color:white;
+	text-align:right;
+	margin-right: 8%;
+	text-shadow: 3px 3px rgb(2, 60, 251);
+	/* font-size: 3.5rem !important; */
+	
+
+}
+.section-5 .para{
+	font-family:'Ubuntu';
+	color:whitesmoke;
+	text-align:right;
+	margin-right: 10%;
+}
+.section-5 a{
+	margin-bottom:25%;
+	margin-left:68%;
+	border: 2px solid black;
+}
+
+/* Section-6 */
+.section-6{
+	margin-top:1%;
+	text-shadow: 1px 1px black;
+}
+.section-6 .row .col-md-7, .col-md-5{
+	margin-top:8%;
+	margin-bottom:8%;
+}
+.section-6 a{
+	color:rgb(93, 186, 240);
+	font-size:2.1rem;
+	text-decoration:none;
+}
+.section-6 .para-1{
+	color:white;
+	font-family:'Roboto Condensed';
+	font-size: 1.3rem;
+}
+.section-6 .col-md-7 img{
+ 	width:570px;
+	height:400px;
+	
+}
+
+
+.four1 {
+	/* background-color: rgb(164, 246, 239) */
+	/* background-color:   rgba(39, 75, 112, 0.883) ; */
+	background-color: #2b464e;
+}
+
+.meetteam {
+	font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1000px){
+	.section-4 .col-md-7 img{
+ 	width:400px;
+  	height:300px;
+	}
+	.section-6 .col-md-7 img{
+ 	width:400px;
+  	height:300px;
+	}
+
+	.site-content .site-title{
+		font-size:30px;
+		margin-top: 40px;
+		/* padding-left:15%; */
+	}
+
+	.site-desc {
+		font-size:22px;
+		
+		/* padding-left:15%; */
+	}
+
+	.site-title {
+		
+	}
+
+
+
+
+
+}
+@media screen and (max-width: 450px){
+	.site-content .site-title{
+		font-size:30px;
+		margin-top: 40px;
+		/* padding-left:15%; */
+	}
+	.site-content .site-btn2{
+		display:none;
+	}
+	
+	.section-1 .heading-1, .section-1 .heading-2{
+		font-size:2rem !important;
+	}
+	.section-2 .col-md-4{
+		padding:5px;
+		margin-left:8%;
+	}
+	.section-4 .col-md-5{
+		padding:0% 15%;
+	}
+	.section-5 .heading-1 {
+		font-size: 2.5rem;
+	}
+	.section-6 .col-md-5{
+		padding:0% 15%;
+	}
+	footer input[type="button"]{
+		margin-top:5%;
+	}
+	.section-4 .col-md-7 img{
+ 		width:250px;
+		height:180px;
+		margin: auto;	  
+	}
+	.section-6 .col-md-7 img{
+ 		width:250px;
+		height:180px;
+		margin: auto;	  
+	}
+
+   .card-img-top{
+	width: 80%vw;
+   }
+
+   .card{
+	width: 100%vw !important;
+	}
+
+	.video {
+		margin-left: 10%;
+		margin-top: 10%;
+		
+	}
+
+	.taketour{
+		margin-top: 8%;
+		font-size: 2.4rem;
+	}
+
+	.meetteam {
+		font-size: 2.2rem;
+	}
+
+	
+}
+
+@media screen and (max-width: 750px){
+	.section-4 .col-md-7 img{
+ 	/* width:400px;
+	  height:300px; */
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	  
+	}
+	.section-6 .col-md-7 img{
+ 	/* width:400px;
+	  height:300px; */
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	  
+	}
+ 
+	.section-4 .col-md-7 #btmpic1{
+		
+		margin-right: 12%;
+		
+	}
+ 
+	.section-6 .col-md-7 #btmpic1{
+		
+		margin-right: 12%;
+		
+	}
+}
+
+.logo{
+	margin-left: 10%;
+	margin-top: 3%;
+
+}
+
+
+
+.card-title{
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.btn-color{
+	background-color: #83C9FC;
+	color: rgb(99, 130, 214);
+	text-shadow: 1px 1px rgb(0, 0, 0);
+
+}
+.btn-color1{
+	background-color: rgb(192, 71, 75);
+	color: rgb(0, 0, 0);
+	text-shadow: 1px 1px rgb(0, 0, 0);
+
+}
+.wider{
+	padding-left: .5% !important;
+	padding-right: .5% !important;
+}

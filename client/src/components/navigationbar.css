@@ -1,0 +1,29 @@
+.navbar {
+   
+
+  
+    
+    
+
+  }
+
+
+  .NavDropdown{
+    color: blue !important;
+  }
+
+  #basic-nav-dropdown  a {
+    color: rgb(255, 0, 128) !important;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.5) !important;
+    
+}
+
+.test3 {
+  background-color: rgb(131,201,252) !important;
+}
+
+
+
+
+

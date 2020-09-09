@@ -1,0 +1,27 @@
+a {
+    
+   color: white;
+ }
+ 
+ li {
+  
+   text-align: center;
+ }
+ 
+
+ .color{
+   background-color: #83C9FC;
+   color: white;
+   padding-left: 0px !important;
+   
+ }
+
+ footer {
+     border-top: 1rem solid white;
+     text-shadow: 1px 1px rgb(36, 139, 170);
+ }
+
+ .names{
+  text-decoration: underline;
+  font-size: 1.2rem;
+ }

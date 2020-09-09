@@ -1,0 +1,46 @@
+.attractionsContainer{
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 15vh;
+    /* margin-bottom: auto; */
+}
+
+.cardImage{
+    height: 80vh;
+    width: vw60;
+}
+
+
+.attractionsHeader{
+    margin-bottom: 4vh;
+}
+.attractionsCard{
+    margin-left:auto;
+    margin-right: auto;
+    /* height: auto; */
+    margin-bottom: 3.5vh;
+    width: 80vw;
+}
+.attractionsCard:hover{
+    transform: scale(1.05, 1.05);
+    box-shadow: -5px 5px 10px 5px gray;
+    z-index: 9
+}
+.attractionsLink{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 450px){
+    .attractionsCard{
+        margin-left:auto;
+        margin-right: auto;
+        /* height: auto; */
+        margin-bottom: 3.5vh;
+        width: 100vw;
+
+    }
+
+    .cardImage{
+        height: 50vh;
+    }
+}

@@ -1,0 +1,105 @@
+.singleContainer{
+    margin-top: 15vh;
+}
+
+.singleName{
+    width: 80vw;
+    height: auto;
+    border: 1px solid gray;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.descriptionContainer{
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.singleDescWeb{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 1px solid gray;;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 25%;
+}
+.singleBooleans{
+    margin-right: auto;
+}
+.singleBooleans p{
+    padding-top: 20%;
+    border-bottom: 1px solid gray;
+}
+.singleImage{
+    width: 45%;
+    height: auto;
+    margin-left: 10%;
+    display: inline-block;
+}
+.singleAddress{
+    width: 20vw;
+    padding: 3% 3%;
+    display: inline-block;
+    margin-left: 10%;
+    border: 1px solid gray;
+    border-radius: 3%;
+    margin-top: 5%;
+}
+@media(max-width: 1000px ){
+    .singleName{
+        width: 80vw;
+        height: auto;
+        border: 1px solid gray;
+        padding: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .singleImage{
+        width: 80vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .singleAddress{
+        width: 80vw;
+        border: 1px solid gray;
+        border-radius: 3%;
+        margin-top: 1%;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .descriptionContainer{
+        /* background-color: whitesmoke; */
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .singleDescWeb{
+        width: 90vw;
+        border-right: none;
+        border-bottom: 1px solid gray;;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 10vw;
+        text-align: center;
+    }
+    .singleBooleans{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
