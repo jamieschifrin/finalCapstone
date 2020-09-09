@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
 import $ from "jquery"
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Nav, Navbar, Dropdown, dropdown, NavDropdown  } from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown  } from 'react-bootstrap';
 // import Navbar from 'react-bootstrap/Navbar'
 import './transnav.css';
 

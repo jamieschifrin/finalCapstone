@@ -2,12 +2,7 @@ import React from 'react';
 import { Component } from 'react'
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carousel from "./components/carousel";
-import  Navbar  from "./components/navigationbar"
-
-
 import './about.css';
-import ten from './assets/10.jpg';
 import eleven from './assets/connor.jpg';
 import twelve from './assets/js.jpg';
 import  Tnavbar from "./components/transnav"

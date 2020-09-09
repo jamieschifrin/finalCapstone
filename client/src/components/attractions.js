@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './style/attractions.css'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  Navbar  from "./navigationbar"
 import {BACKEND_URL} from '../config'
@@ -20,7 +19,7 @@ const Attraction = (props) => {
         <Card.Title className="text-center">{props.attraction.name}</Card.Title>
         {/* <Button variant="secondary" block> */}
         <Card.Text className="text-center">
-          <Link className="text-center text-dark"to={"/attractions/" + props.attraction._id}>Learn More</Link>
+          <Link className="text-center text-dark"to={"/viewattractions/" + props.attraction._id}>Learn More</Link>
         </Card.Text>
         {/* </Button> */}
         <Card.Text className="text-center">
