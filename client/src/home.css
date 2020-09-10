@@ -384,15 +384,15 @@ body{
 	  
 	}
  
-	.section-4 .col-md-7 #btmpic1{
+	/* .section-4 .col-md-7 #btmpic1{
 		
 		margin-right: 12%;
 		
-	}
+	} */
  
 	.section-6 .col-md-7 #btmpic1{
 		
-		margin-right: 12%;
+		margin-right: 12vw;
 		
 	}
 }

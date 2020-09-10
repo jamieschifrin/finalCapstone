@@ -68,7 +68,7 @@ export default class EditAttraction extends Component {
             </div>
           </div>
           <div className="descriptionContainer">
-            <div className="singleDescWeb">
+            <div className="singleDescWeb text-center ">
             {this.state.description}
             </div>
             <div className="singleBooleans">

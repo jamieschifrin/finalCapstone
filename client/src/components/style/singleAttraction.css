@@ -11,6 +11,8 @@
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    background-color: rgba(131, 202, 252, 0.5);
+    font-size: 1.5rem;
 }
 .descriptionContainer{
     /* background-color: whitesmoke; */
@@ -52,6 +54,8 @@
     border: 1px solid gray;
     border-radius: 3%;
     margin-top: 5%;
+    background-color: rgba(131, 202, 252, 0.5);
+ 
 }
 @media(max-width: 1000px ){
     .singleName{
@@ -92,14 +96,15 @@
     .singleDescWeb{
         width: 90vw;
         border-right: none;
-        border-bottom: 1px solid gray;;
+        /* border-bottom: 1px solid gray;; */
         padding-top: 4%;
         padding-bottom: 4%;
-        padding-left: 10vw;
+        padding-left: 8vw;
         text-align: center;
     }
     .singleBooleans{
-        margin-right: auto;
-        margin-left: auto;
+        /* margin-right: auto;
+        margin-left: auto; */
+        padding-left: 20vw;
     }
 }
