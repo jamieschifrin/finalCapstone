@@ -10,15 +10,15 @@ a {
  
 
  .color{
-   background-color: #83C9FC;
-   color: white;
+   background-color: #79bbeb;
+   color: rgb(241, 223, 223);
    padding-left: 0px !important;
    
  }
 
  footer {
      border-top: 1rem solid white;
-     text-shadow: 1px 1px rgb(65, 100, 110);
+     text-shadow: 1px 1px rgb(50, 63, 66);
  }
 
  .names{

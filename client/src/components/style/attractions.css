@@ -3,27 +3,33 @@
     margin-right: auto; */
     margin-top: 15vh;
     /* margin-bottom: auto; */
+   
+
 }
 
 .cardImage{
-    height: 80vh;
-    width: vw60;
+    height: 60vh;
+    /* width: 60vw; */
 }
 
 
 .attractionsHeader{
     margin-bottom: 4vh;
+    font-size: 2.5rem;
 }
 .attractionsCard{
     margin-left:auto;
     margin-right: auto;
     /* height: auto; */
-    margin-bottom: 3.5vh;
-    width: 80vw;
+    margin-bottom: 7vh;
+    margin-top: 5vh;
+    width: 50vw;
+   
 }
 .attractionsCard:hover{
-    transform: scale(1.05, 1.05);
-    box-shadow: -5px 5px 10px 5px gray;
+    transform: scale(1.1, 1.1);
+    box-shadow: -5px 5px 10px 5px #5c9bc8;
+    ;
     z-index: 9
 }
 .attractionsLink{

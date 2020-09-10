@@ -82,14 +82,14 @@ body {
   .features-icons .features-icons-item .features-icons-icon i {
     font-size: 4.5rem;
   }
-  
-  .features-icons .features-icons-item:hover .features-icons-icon i {
-    font-size: 5rem;
-  }
+
   
   .testimonials {
     padding-top: 7rem;
     padding-bottom: 7rem;
+
+    background-color:rgb(223, 229, 241) !important;
+    
   }
   
   .testimonials .testimonial-item {
@@ -97,7 +97,7 @@ body {
   }
   
   .testimonials .testimonial-item img {
-    max-width: 12rem;
+    max-width: 14rem;
     box-shadow: 0px 5px 5px 0px #adb5bd;
   }
   
@@ -109,7 +109,7 @@ body {
     padding-top: 7rem;
     padding-bottom: 7rem;
     background-attachment:fixed;
-     height: 800px;
+    height: 800px;
   }
   
 
@@ -149,6 +149,10 @@ body {
 
   .headers {
     text-decoration: underline;
+  }
+
+  h5 {
+    font-weight: bold;
   }
 
 

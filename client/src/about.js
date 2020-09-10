@@ -103,7 +103,7 @@ export default class about extends Component {
           <div class="testimonial-item mx-auto mb-5 mb-lg-0  ">
             <img class="cj img-fluid rounded-circle mb-3" src={twelve} alt=""/>
             <h5>Jamie Schifrin</h5>
-            <p class=" mb-0">"I enjoy Learning, growing, and being challenged. Looking forward to the Journey of becominng a more experienced Web Developer."</p>
+            <p class=" mb-0">"I enjoy Learning, growing, and being challenged. Looking forward to the Journey of enhancing my skill set and becominng a more experienced Developer."</p>
           </div>
         </div>
       </div>

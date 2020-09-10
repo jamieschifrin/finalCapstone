@@ -61,6 +61,12 @@ body{
 	margin-bottom:40%;
 }
 
+.logo{
+	margin-left: 10%;
+	margin-top: 3%;
+
+}
+
 
 
 /* Section-1 */
@@ -86,10 +92,12 @@ body{
 }
 .card-img-top{
 	height: 250px;
+	width: 80%vw;
 }
 .card {
 	margin-bottom: 10%;
 	border: 1px solid rgb(184, 178, 178);
+	width: 100%vw !important;
 }
 
 .decloration{
@@ -384,12 +392,6 @@ body{
 	  
 	}
  
-	/* .section-4 .col-md-7 #btmpic1{
-		
-		margin-right: 12%;
-		
-	} */
- 
 	.section-6 .col-md-7 #btmpic1{
 		
 		margin-right: 12vw;
@@ -397,11 +399,6 @@ body{
 	}
 }
 
-.logo{
-	margin-left: 10%;
-	margin-top: 3%;
-
-}
 
 
 
